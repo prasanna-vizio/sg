@@ -1,11 +1,8 @@
-variable "ami" {
-  type = string
+variable "vpc-cidr" {
+    type = string
+   default = "10.0.0.0/16"
 }
 
-variable "instance_type" {
-  type = string
-}
-
-variable "region" {
-  type = string
+variable "vpc-id" {
+    type = string
 }
